@@ -1,19 +1,22 @@
-# ===== Backend / Dependencias de producción =====
+# ===== Backend / API =====
 Flask==2.2.5
 flask-cors==3.0.10
 gunicorn==20.1.0
 
-# ===== Dependencias de IA / TensorFlow compatibles con Python 3.12 =====
+# ===== IA / TensorFlow compatible con Python 3.12 =====
 tensorflow==2.12.0
 tensorboard==2.12.3
 tensorflow-io-gcs-filesystem==0.31.1
 
-# ===== Utilidades de procesamiento de texto =====
+# ===== Procesamiento de texto =====
 nltk==3.9.1
 regex==2024.11.6
 
-# ===== Arrays y cálculo numérico =====
+# ===== Cálculo numérico =====
 numpy==1.26.4
 
-# ===== (Opcional, sólo si tu lógica de predict usa Pandas) =====
+# ===== (Opcional) Si usas Pandas en preprocess.py =====
 pandas==2.5.3
+
+# ===== ML utilities =====
+scikit-learn==1.6.1
