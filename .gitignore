@@ -1,0 +1,8 @@
+# Ignora el entorno virtual
+venv/
+__pycache__/
+*.pyc
+
+# Ignora datos pesados y modelos (opcional)
+data/
+backend/models/

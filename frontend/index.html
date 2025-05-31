@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detector de Correos Phishing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Contenedor principal -->
+  <div class="container">
+    <header class="header">
+      <h1>Detector de Correos Phishing</h1>
+      <p class="subtitle">Verifica rápidamente si un correo es legítimo o phishing</p>
+    </header>
+
+    <main class="main-content">
+      <!-- Área de texto integrada dentro de una tarjeta -->
+      <div class="card">
+        <label for="emailText" class="label">Texto del Correo:</label>
+        <textarea
+          id="emailText"
+          class="textarea"
+          rows="8"
+          placeholder="Pega aquí el contenido completo del correo..."
+        ></textarea>
+        <button id="checkBtn" class="btn-primary">Verificar</button>
+      </div>
+
+      <!-- Área de resultado: inicialmente oculta -->
+      <div id="result" class="result hidden">
+        <span id="resultIcon" class="result-icon"></span>
+        <div id="resultText" class="result-text"></div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 Grupo01-SI. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+  <!-- Script JS -->
+  <script src="script.js"></script>
+</body>
+</html>
