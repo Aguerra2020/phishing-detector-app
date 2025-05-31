@@ -1,12 +1,21 @@
+# ===== Backend / API =====
 Flask==2.2.5
 flask-cors==3.0.10
 gunicorn==20.1.0
 
-numpy==1.26.4
-pandas==2.2.3
-scikit-learn==1.6.1
+# ===== TensorFlow (compatible con Python 3.10/3.12) =====
+tensorflow==2.12.0
+tensorboard==2.12.3
+
+# ===== Procesamiento de texto =====
 nltk==3.9.1
 regex==2024.11.6
 
-tensorflow==2.12.0
-tensorboard==2.12.3
+# ===== Cálculo numérico (versión unificada para evitar conflictos) =====
+numpy==1.23.5
+
+# ===== Manipulación de datos =====
+pandas==2.2.3
+
+# ===== Utilidades de ML =====
+scikit-learn==1.6.1
