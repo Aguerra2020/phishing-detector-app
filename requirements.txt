@@ -3,10 +3,9 @@ Flask==2.2.5
 flask-cors==3.0.10
 gunicorn==20.1.0
 
-# ===== IA / TensorFlow compatible con Python 3.12 =====
-tensorflow==2.12.0
-tensorboard==2.12.3
-tensorflow-io-gcs-filesystem==0.31.1
+# ===== IA / TensorFlow (compatible con Python 3.12) =====
+tensorflow==2.16.2
+tensorboard==2.16.2
 
 # ===== Procesamiento de texto =====
 nltk==3.9.1
